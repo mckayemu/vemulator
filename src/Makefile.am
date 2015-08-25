@@ -4,7 +4,7 @@ AM_CPPFLAGS = \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	-DPACKAGE_SRC_DIR=\""$(srcdir)"\" \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
-	-DPACKAGE_DOC_DIR=\""$(prefix)/doc"\" \
+	-DPACKAGE_DOC_DIR=\""$(prefix)/share/doc"\" \
 	$(GELIDE_CFLAGS)
 
 AM_CFLAGS =\
