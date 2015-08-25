@@ -1,12 +1,11 @@
 [Desktop Entry]
-Version=
 Encoding=UTF-8
-Name=Gelide
+Name=Gelide Emulation GUI
+GenericName=Gelide Emulation GUI
 _Comment=Manage and play your roms
 Exec=gelide
 Icon=gelide
 Terminal=false
 Type=Application
-Categories=GNOME;GTK;Game;Emulator;
+Categories=GTK;Game;
 StartupNotify=true
-Name[es_ES]=Gelide

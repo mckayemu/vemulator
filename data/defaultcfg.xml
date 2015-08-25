@@ -30,29 +30,29 @@
   <key name="show_emulator_output" value="0"/>
  </group>
  <group name="ui">
-  <key name="browser_left_height" value="355"/>
-  <key name="browser_left_width" value="200"/>
+  <key name="browser_left_height" value="412"/>
+  <key name="browser_left_width" value="373"/>
   <key name="browser_mode" value="0"/>
-  <key name="browser_top_height" value="120"/>
-  <key name="browser_top_width" value="230"/>
+  <key name="browser_top_height" value="290"/>
+  <key name="browser_top_width" value="510"/>
   <key name="browser_visible" value="1"/>
-  <key name="columns_order" value="0, 5, 2, 3, 4, 6, 1"/>
-  <key name="columns_visibility" value="1, 1, 1, 1, 1, 1, 1"/>
-  <key name="columns_widths" value="76, 250, 60, 58, 100, 225, 150"/>
+  <key name="columns_order" value="0, 1, 4, 2, 3, 5, 6"/>
+  <key name="columns_visibility" value="0, 1, 1, 1, 1, 1, 1"/>
+  <key name="columns_widths" value="0, 250, 56, 94, 100, 255, 150"/>
   <key name="filters_visible" value="1"/>
-  <key name="filters_width" value="150"/>
+  <key name="filters_width" value="109"/>
   <key name="fullscreen_mode" value="0"/>
   <key name="info_pannel_selected" value="0"/>
-  <key name="info_pannel_visible" value="1"/>
-  <key name="info_pannel_widht" value="395"/>
+  <key name="info_pannel_visible" value="0"/>
+  <key name="info_pannel_widht" value="895"/>
   <key name="selected_system" value="2"/>
   <key name="sort_column" value="0"/>
   <key name="sort_type" value="0"/>
   <key name="status_bar_visible" value="1"/>
   <key name="tool_bar_visible" value="1"/>
-  <key name="ui_height" value="600"/>
-  <key name="ui_width" value="800"/>
-  <key name="ui_x" value="100"/>
-  <key name="ui_y" value="100"/>
+  <key name="ui_height" value="700"/>
+  <key name="ui_width" value="900"/>
+  <key name="ui_x" value="10"/>
+  <key name="ui_y" value="10"/>
  </group>
 </gelidecfg>
