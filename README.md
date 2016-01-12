@@ -4,19 +4,19 @@ Emulao: VenenuX folk from Gelide 1.X brand
 ## Tabla de contenidos:
 -------------------
 
-	1. [Acerca de Gelide/Emulao](#1-acerca-de-gelideemulao)
-		1.1. [Y como funciona?](#11-y-como-funciona)
-	2. [Características](#2-características)
-	3. [Estado + Sistemas Emuladores](#3-estado--sistemas-emulados)
-		3.1  [Diferencias respeto gelide y emulao](#31-cambios-respecto-gelide-original-y-venenux)
-	4. [Proyecto](#4-proyecto-y-contribuciones)
-	5. [Instalación](#5-instalación)
-		5.1. [Dependencias](#51-dependencias)
-	6. [Acerca de las Roms](#6-acerca-de-las-roms)
-	7. [Ficheros Dat](#7-ficheros-dat)
-	8. [Disclaimer]
-	9. [Agradecimientos]
-	10. [Licencia]
+1. [Acerca de Gelide/Emulao](#1-acerca-de-gelideemulao)
+1.1. [Y como funciona?](#11-y-como-funciona)
+2. [Características](#2-características)
+3. [Estado + Sistemas Emuladores](#3-estado--sistemas-emulados)
+3.1  [Diferencias respeto gelide y emulao](#31-cambios-respecto-gelide-original-y-venenux)
+4. [Proyecto](#4-proyecto-y-contribuciones)
+5. [Instalación](#5-instalación)
+5.1. [Dependencias](#51-dependencias)
+6. [Acerca de las Roms](#6-acerca-de-las-roms)
+7. [Ficheros Dat](#7-ficheros-dat)
+8. [Disclaimer]
+9. [Agradecimientos]
+10. [Licencia]
 
 
 
