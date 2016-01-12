@@ -4,19 +4,19 @@ Emulao: VenenuX folk from Gelide 1.X brand
 ## Tabla de contenidos:
 -------------------
 
-1. [Acerca de Gelide/Emulao](#1-acerca-de-gelideemulao)
-1.1. [Y como funciona?](#11-y-como-funciona)
-2. [Características](#2-características)
-3. [Estado + Sistemas Emuladores](#3-estado--sistemas-emulados)
-3.1  [Diferencias respeto gelide y emulao](#31-cambios-respecto-gelide-original-y-venenux)
-4. [Proyecto](#4-proyecto-y-contribuciones)
-5. [Instalación](#5-instalación)
-5.1. [Dependencias](#51-dependencias)
-6. [Acerca de las Roms](#6-acerca-de-las-roms)
-7. [Ficheros Dat](#7-ficheros-dat)
-8. [Disclaimer]
-9. [Agradecimientos]
-10. [Licencia]
+* 1. [Acerca de Gelide/Emulao](#1-acerca-de-gelideemulao)
+* 1.1 [Y como funciona?](#11-y-como-funciona)
+* 2. [Características](#2-características)
+* 3. [Estado + Sistemas Emuladores](#3-estado--sistemas-emulados)
+* 3.1  [Diferencias respeto gelide y emulao](#31-cambios-respecto-gelide-original-y-venenux)
+* 4. [Proyecto](#4-proyecto-y-contribuciones)
+* 5. [Instalación](#5-instalación)
+* 5.1 [Dependencias](#51-dependencias)
+* 6. [Acerca de las Roms](#6-acerca-de-las-roms)
+* 7. [Ficheros Dat](#7-ficheros-dat)
+* 8. [Disclaimer]
+* 9. [Agradecimientos]
+* 10. [Licencia]
 
 
 
@@ -173,19 +173,19 @@ TODO esto se ampliara con enlaces a la wiki y secciones especificas.
 
 ### 3.1 Cambios respecto gelide original y VenenuX
 
-A Directorio de roms:
-Todos los modulos/emuladores estan preconfigurados con su ROM directorio y abren en ventana.
+A) Directorio de roms:
+ Todos los modulos/emuladores estan preconfigurados con su ROM directorio y abren en ventana.
 
-B Emuladores Ajustados:
-Se cambio tres emuladores, bsnes, Gambate y boycott se removieron por ser complicados y 
-ofrecer lo mismo que mednafen, en la mayoria se establece mednafen como primario para lograr 
-homogeneidad al emular y el usuario no se pierda (especialmente con los salvados)
-Se agrego tres emuladores, los viejos fceu, mupen64 y se dividio mednafen entre el 0.8 y 0.9.
+B) Emuladores Ajustados:
+ Se cambio tres emuladores, bsnes, Gambate y boycott se removieron por ser complicados y 
+ ofrecer lo mismo que mednafen, en la mayoria se establece mednafen como primario para lograr 
+ homogeneidad al emular y el usuario no se pierda (especialmente con los salvados)
+ Se agrego tres emuladores, los viejos fceu, mupen64 y se dividio mednafen entre el 0.8 y 0.9.
 
-C Sistemas mas usados ordenados
-Los emuladores mas usados o populares estan ordenados como primeros y los menos populares 
-se colocaron al final de la lista. ***Se tienen pendientes mas emuladores y sistemas que estan incluso 
-desaparecidos del mundo de linux.***
+C) Sistemas mas usados ordenados
+ Los emuladores mas usados o populares estan ordenados como primeros y los menos populares 
+ se colocaron al final de la lista. ***Se tienen pendientes mas emuladores y sistemas que estan incluso 
+ desaparecidos del mundo de linux.***
 
 
 
@@ -211,7 +211,9 @@ enviarnos los archivos exportados a la dirección de correo del proyecto
 
 ## 5. Instalación
 
-Las instrucciones de instalación las podéis encontrar en el archivo INSTALL
+Para Debian y VenenuX solo agregar el repositorio VenenuX y "apt-get install emulao"
+
+Las instrucciones comunes para linux usando las fuentes, en el archivo INSTALL
 en la raiz del archivo tarball con el código fuente del programa. Para compilar
 Gelide desde los fuentes necesitarás como mínimo Gtkmm 2.6.x instalado en tu
 sistema además de las autotools y lo necesario para compilar aplicaciones en
@@ -219,8 +221,8 @@ C/C++ bajo GNU/Linux.
 
 ### 5.1. Dependencias
 
-Gelide en su versión actual, solo depende de las librerías libgtkmm y
-libxml2, no obstante para compilar desde los archivos fuente, necesitarás tener
+Gelide en su versión actual, solo depende de las librerías libgtkmm (que a su vez depende de gtk y este glib)
+y libxml2, no obstante para compilar desde los archivos fuente, necesitarás tener
 instaladas las versiones de desarrollo de estas dos librerías (-dev) y también
 la utilidad intltool.
 
@@ -318,10 +320,12 @@ Gelide. If not, see <http://www.gnu.org/licenses/>
 
 
 -------------------------------------------------------------------------------
+
 Para obtener más información, visita la página web del proyecto, que podrás 
 encontrar en:
 https://github.com/tapule/Gelide
-Para mas info de la version especifica de VenenuX visita los grupos de venenux 
-en googlegroups.
+
+Para mas info de la version especifica de VenenuX visita los grupos de venenux en googlegroups.
+
 -------------------------------------------------------------------------------
 
